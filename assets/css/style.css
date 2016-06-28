@@ -23,14 +23,14 @@ body {
 	font-smoothing: antialiased !important;
 	overflow-x: hidden;
 	font-family: 'Ubuntu', sans-serif;
-	color: #777;
-    font-size: 14px;
+	color: #000000;
+    font-size: 18px;
     line-height: 22px;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Ubuntu Condensed', sans-serif;
-	color: #252525;
+	color: #000000;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -55,10 +55,10 @@ iframe {
 }
 
 p {
-  font-size: 25px;
+  font-size: 18px;
   line-height: 25px;
   font-family: 'Ubuntu', sans-serif;
-  color: #777;
+  color: #000;
   margin: 0;
 }
 

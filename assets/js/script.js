@@ -187,7 +187,7 @@ $(document).ready(function($) {
     
     
     // CountDown Coming Soon
-    $('#clock').countdown("2017/01/29", function(event) {
+    $('#clock').countdown("2016/07/22", function(event) {
 			var $this = $(this);
 			switch(event.type) {
 				case "seconds":
