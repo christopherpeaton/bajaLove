@@ -27,7 +27,7 @@ if (!$comment) {
 ini_set("SMTP", "relay-hosting.secureserver.net");
 ini_set("smtp_port", "25");
 
-if ($sendEmail && mail('chapferrin@gmail.com', 'mail from baja love outreach', $body)) {
+if ($sendEmail && mail('bajaloveoutreach@gmail.com', 'mail from baja love outreach', $body)) {
     echo header('Location: mailSent.html');
 } else {
     echo header('Location: mailNotSent.html');
